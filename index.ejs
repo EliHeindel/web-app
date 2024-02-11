@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heindel Carvings - Home</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Welcome to Heindel Carvings</h1>
+    <h2>Wood Carvings for Sale</h2>
+    <ul>
+        <% carvings.forEach(carving => { %>
+            <li>
+                <a href="/carving/<%= carving.id %>"><%= carving.name %> - $<%= carving.price %></a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>

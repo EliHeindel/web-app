@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heindel Carvings - Checkout</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Checkout</h1>
+    <h2>Order Summary</h2>
+    <ul>
+        <% cart.forEach(item => { %>
+            <li><%= item.name %> - $<%= item.price %></li>
+        <% }); %>
+    </ul>
+    <!-- Add checkout form fields here -->
+    <form action="/checkout" method="POST">
+        <button type="submit">Confirm Order</button>
+    </form>
+</body>
+</html>

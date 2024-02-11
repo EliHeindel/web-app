@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heindel Carvings - Carving Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1><%= carving.name %></h1>
+    <p>Price: $<%= carving.price %></p>
+    <!-- Add form to submit carving ID -->
+    <form action="/cart" method="POST">
+        <input type="hidden" name="id" value="<%= carving.id %>">
+        <button type="submit">Add to Cart</button>
+    </form>
+</body>
+</html>
