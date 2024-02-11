@@ -6,7 +6,7 @@ To start the test server on your computer, you need to navigate to the project d
 
 The purpose of writing this software was to gain practical experience in building a dynamic web application using Node.js and Express.js. Additionally, I wanted to create a functional e-commerce website that showcases products and allows users to add items to their cart, enter payment and shipping information, and proceed to checkout.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](http://youtube.link.goes.here)](https://www.youtube.com/watch?v=_6RamwnIKxA)
 
 # Web Pages
 
